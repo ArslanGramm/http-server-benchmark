@@ -20,34 +20,5 @@
 
 ## Установка
 
+``bash
 python -m pip install -r requirements.txt
-
-## Запуск
-
-python bench.py -H https://ya.ru,https://google.com -C 5
-
-## Аргументы
-
-### -H / --hosts
-
-Список адресов через запятую без пробелов.
-
-### -C / --count
-
-Количество запросов к каждому хосту.
-
-По умолчанию: 1.
-
-## Пример результата
-
-Host: https://ya.ru
-Success: 5
-Failed: 0
-Errors: 0
-Min: 0.123s
-Max: 0.245s
-Avg: 0.167s
-
-## Автор
-
-ArslanGramm
